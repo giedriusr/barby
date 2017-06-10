@@ -65,7 +65,7 @@ module Barby
     def characters
       data.split(//)
     end
-    
+
     def numbers
       characters.map{|s| s.to_i }
     end
